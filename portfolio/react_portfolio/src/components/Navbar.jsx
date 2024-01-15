@@ -14,7 +14,6 @@ const Navbar = () => {
                 {/* Left Section - Logo */}
                 <div className="flex items-center">
                     <img src="/path/to/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
-                    <h1 className="text-2xl font-bold">My Portfolio</h1>
                 </div>
 
                 {/* Middle Section - Navigation Links or Hamburger Menu */}
