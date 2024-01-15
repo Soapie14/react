@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import '../index.css'; // Import your CSS file
 
-
-//images
-
-import flowerimg from '../images/flower.png';
+// Images
+import S_icon from '../images/S.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -14,11 +12,11 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-black p-4 text-white">
+        <nav className="bg-black p-4 text-white fixed top-0 w-full z-50">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Left Section - Logo */}
                 <div className="flex items-center">
-                    <img src={flowerimg} alt="Logo" className="h-8 w-8 mr-11" />
+                    <img src={S_icon} alt="Logo" className="h-10 w-9 mr-11" />
                 </div>
 
                 {/* Middle Section - Navigation Links or Hamburger Menu */}
@@ -58,3 +56,4 @@ const Navbar = () => {
     );
 };
 export default Navbar;
+
