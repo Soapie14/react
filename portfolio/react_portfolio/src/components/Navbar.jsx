@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import '../index.css'; // Import your CSS file
 
+
+//images
+
+import flowerimg from '../images/flower.png';
+
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,11 +14,11 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gray-800 p-4 text-white">
+        <nav className="bg-black p-4 text-white">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Left Section - Logo */}
                 <div className="flex items-center">
-                    <img src="/path/to/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+                    <img src={flowerimg} alt="Logo" className="h-8 w-8 mr-11" />
                 </div>
 
                 {/* Middle Section - Navigation Links or Hamburger Menu */}
