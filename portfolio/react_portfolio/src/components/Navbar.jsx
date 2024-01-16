@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-black p-4 text-white fixed top-0 w-full z-50">
+        <nav className="bg-black p-4 text-white fixed top-0 w-full z-50 ">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Left Section - Logo */}
                 <div className="flex items-center">
@@ -22,7 +22,7 @@ const Navbar = () => {
                 {/* Middle Section - Navigation Links or Hamburger Menu */}
                 <div className="hidden md:flex space-x-4">
                     <a href="#home" className="hover:text-gray-300">Home</a>
-                    <a href="#about" className="hover:text-gray-300">About</a>
+                    <a href="#about" className="hover:text-gray-300">About Me</a>
                     <a href="#projects" className="hover:text-gray-300">Projects</a>
                 </div>
 
