@@ -8,3 +8,8 @@
 /* Import Tailwind CSS utility styles */
 @import 'tailwindcss/utilities';
 
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
