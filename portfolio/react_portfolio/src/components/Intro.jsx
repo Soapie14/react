@@ -6,13 +6,13 @@ import bg from '../images/background.mp4';
 
 const Intro = () => {
     return (
-        <div className="video-background relative h-[400px] md:top-0 md:mt-0">
+        <div className="video-background relative md:h-[550px] h-[400px] md:top-0 md:mt-0">
             <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
                 <source src={bg} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
-            <div className="absolute top-0 md:top-0 md:mt-0 left-0 w-full h-[400px] flex flex-col items-start justify-center text-white
+            <div className="absolute top-0 md:top-0 md:mt-10 left-0 w-full h-[400px] flex flex-col items-start justify-center text-white
             sm:p-8 md:p-16 lg:p-20 xl:p-24">
                 <div className="w-full text-center sm:text-left">
                     <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-bold mb-4">Hello, I am</h3>
