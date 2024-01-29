@@ -6,13 +6,13 @@ import Project2 from '../images/carousel.PNG';
 
 const Projects = () => {
     return (
-        <div className="bg-black text-gray-200 py-8">
-            <p className="text-gray-200 text-4xl text-center sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-bold mb-4">Projects</p>
+        <div className="bg-black text-gray-200 py-10">
+            <p className="text-gray-200 text-4xl text-center sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-bold mb-10">Projects</p>
             <div className="container mx-auto flex flex-col lg:flex-row items-stretch justify-center">
 
                 {/* Project Container 1 */}
                 <div className="lg:w-1/2 lg:pr-4 mb-8 flex flex-col items-center">
-                    <h3 className="text-xl font-bold text-center">My first portfolio</h3>
+                    <h3 className="text-xl font-bold text-center mb-4" >My first portfolio</h3>
                     <div className="project-image-container mb-4">
                         <img src={Project1} alt="Project 1 Picture" className="w-full h-auto lg:h-64 object-cover" />
                     </div>
@@ -25,7 +25,7 @@ const Projects = () => {
 
                 {/* Project Container 2 */}
                 <div className="lg:w-1/2 lg:pl-4 mb-8 flex flex-col items-center">
-                    <h3 className="text-xl font-bold text-center">Internship</h3>
+                    <h3 className="text-xl font-bold text-center mb-4">Internship</h3>
                     <div className="project-image-container mb-4">
                         <img src={Project2} alt="Project 2" className="w-full h-auto lg:h-64 object-cover" />
                     </div>
