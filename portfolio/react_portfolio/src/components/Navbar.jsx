@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 {/* Right Section - Contact Me Button or Hamburger Menu */}
                 <div className="hidden md:flex">
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Contact Me</button>
+                    <button><a href="#contact" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded hover:text-gray-300">Contact Me</a></button>
                 </div>
 
                 {/* Hamburger Menu for Small Screens */}
@@ -48,7 +48,7 @@ const Navbar = () => {
                         <a href="#home" className="block py-2 px-4">Home</a>
                         <a href="#about" className="block py-2 px-4">About</a>
                         <a href="#projects" className="block py-2 px-4">Projects</a>
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mx-4">Contact Me</button>
+                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4 mx-4">Contact Me</button>
                     </div>
                 )}
             </div>
