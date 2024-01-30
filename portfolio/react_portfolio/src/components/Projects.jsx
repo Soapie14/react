@@ -6,7 +6,7 @@ import Project2 from '../images/carousel.PNG';
 
 const Projects = () => {
     return (
-        <div className="bg-black text-gray-200 py-10">
+        <div id='projects' className="bg-black text-gray-200 py-16 mt-10">
                 <p className="text-gray-200 text-4xl text-center sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-bold mb-10">Projects</p>
                 <div className="container mx-auto flex flex-col lg:flex-row items-stretch justify-center">
 
